@@ -75,7 +75,7 @@ const AddNodeOnEdgeDrop = () => {
       { text: inputValue, type: 'user', id: requestId }
     ]);
 
-    const apiKey = 'AIzaSyBlIj3LRy27a6SLx7fUMuVz0xnul24ECZU'; 
+    const apiKey = ''; 
     const genAI = new GoogleGenerativeAI(apiKey);
     setInputValue("");
 
